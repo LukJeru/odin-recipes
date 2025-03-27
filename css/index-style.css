@@ -3,11 +3,11 @@
 }
 
 :root {
-  --background: #EFE9F4;
-  --red: #EE6352;
-  --lightblue: #08B2E3;
-  --green: #57A773;
-  --darkblue: #484D6D;
+  --background: rgba(239, 233, 244);
+  --red: rgba(238, 99, 82);
+  --lightblue: rgba(8, 178, 227, .3);
+  --green: rgba(87, 167, 115);
+  --darkblue: rgba(72, 77, 109);
 }
 
 body {
@@ -29,9 +29,29 @@ a:link {
 }
 
 a:visited {
-  color: var(--green);
+  color: var(--red);
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--green);
+}
+
+div {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+div a {
+  background-color: var(--lightblue);
+  width: 300px;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 24px 80px;
+  font-size: 24px;
+  border-top: 2px solid var(--red);
+}
+
+.top-recipe {
+  border-top: none;
 }
