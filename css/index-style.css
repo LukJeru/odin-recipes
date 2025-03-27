@@ -1,0 +1,37 @@
+* {
+  font-family: "Roboto","Times New Roman", sans-serif;
+}
+
+:root {
+  --background: #EFE9F4;
+  --red: #EE6352;
+  --lightblue: #08B2E3;
+  --green: #57A773;
+  --darkblue: #484D6D;
+}
+
+body {
+  text-align: center;
+  background-color: var(--background);
+}
+
+h1 {
+  font-size: 36px;
+  color: var(--darkblue);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--darkblue);
+}
+
+a:visited {
+  color: var(--green);
+}
+
+a:hover {
+  color: var(--red);
+}
