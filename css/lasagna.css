@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto","Times New Roman", sans-serif;
+  color: var(--darkblue);
 }
 
 :root {
@@ -12,12 +13,14 @@
 
 body {
   background-color: var(--background);
+  text-align: center;
 }
 
 h1 {
   font-size: 36px;
   color: var(--darkblue);
 }
+
 
 a {
   text-decoration: none;
@@ -42,4 +45,8 @@ a:hover {
 img {
   width: 400;
   height: auto;
+}
+
+li {
+  list-style: none;
 }
