@@ -50,3 +50,16 @@ img {
 li {
   list-style: none;
 }
+
+.ingredients {
+  display: flex;
+  width: 600;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+
+.ingredients div {
+  width: 200;
+}
